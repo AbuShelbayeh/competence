@@ -8,6 +8,7 @@ html {
   background-size:cover;
   box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.3);
 }
+
 body {
   display: grid;
   font-family: 'Lato', sans-serif;
@@ -15,7 +16,7 @@ body {
 }
 
 header {
-  padding: .5rem 1rem;
+  margin: 4rem 3rem;
   display: flex;
   justify-content: space-between;
 }
@@ -30,16 +31,19 @@ header {
   }
 }
 
-#main-text {
+#main-text-wrapper {
   // display: flex;
   // justify-content: center;
   text-align: center;
   flex-direction: row;
   align-self: center;
   align-items: center;
-  font-size: 2.8rem;
-  color: #4c9c2e;
+  
   p {
     font-weight: 900;
+  }
+  .main-text {
+    font-size: 2.8rem;
+    color: #4c9c2e;
   }
 }
