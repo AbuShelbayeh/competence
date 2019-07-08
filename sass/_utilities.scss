@@ -1,3 +1,28 @@
 .wrapper {
   margin: 0px 1rem;
 }
+
+.btn {
+  border: none;
+  background-color: rgba(179,179,179,.6);
+  padding: .7rem 1rem;
+  border-radius: 5px;
+  width: 49%;
+  color: #fff;
+  font-family: 'Lato';
+  text-transform: capitalize;
+  font-size: 1rem;
+
+  &-primary {
+    background-color: #4c9c2e;
+  }
+  
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #231f20;
+}
+.btn-primary:hover {
+  background-color: #3e9120;
+}
