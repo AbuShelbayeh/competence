@@ -5,13 +5,14 @@
 .btn {
   border: none;
   background-color: rgba(179,179,179,.6);
-  padding: .7rem 1rem;
+  padding: auto;
+  height: 5.5vh;
   border-radius: 5px;
   width: 49%;
   color: #fff;
   font-family: 'Lato';
   text-transform: capitalize;
-  font-size: 1rem;
+  font-size: .65em;
 
   &-primary {
     background-color: #4c9c2e;
