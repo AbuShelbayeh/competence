@@ -13,7 +13,7 @@
   font-family: 'Lato';
   text-transform: capitalize;
   font-size: .65em;
-
+  transition: background-color 200ms ease-in-out;
   &-primary {
     background-color: #4c9c2e;
   }

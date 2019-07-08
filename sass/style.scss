@@ -27,10 +27,12 @@ header {
 }
 
 #social-links {
-  img {
+  a {
     margin-right: 1rem;
   }
-
+  a:hover {
+    cursor: pointer;
+  }
   :last-child {
     margin: 0;
   }
