@@ -13,14 +13,14 @@ html {
 
 body {
   display: grid;
-  grid-template-rows: 1fr 10fr 1fr 1fr;
+  grid-template-rows: 1fr 10fr 1fr;
   height: 100vh;
 }
 h1 { font-size: 1.7em }
 h2 { font-size: 1.45em }
 h3 { font-size: 1em }
 header {
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 2rem 0 2rem;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -129,6 +129,7 @@ main {
 }
 
 .contact-info {
+  margin-top: 1rem;
   display: flex;
   flex-direction: column;
   
@@ -137,7 +138,7 @@ main {
     text-align: center;
     font-family: 'Lato';
     font-size: .6em;
-    margin: .3rem;
+    margin: .2rem;
   }
   pre {
     font-weight: 300;
@@ -152,7 +153,7 @@ footer {
   display: flex;
   font-weight: 900;
   color: #fff;
-  padding: 0 2rem;
+  padding: 0 2rem 1rem 2rem;
   align-items: center;
   font-size: .5em;
 }
