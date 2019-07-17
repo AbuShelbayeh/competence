@@ -17,6 +17,10 @@
   &-primary {
     background-color: #4c9c2e;
   }
+  &-short {
+    width: auto;
+    padding: .25rem .5rem;
+  }
   
 }
 
@@ -26,4 +30,9 @@
 }
 .btn-primary:hover {
   background-color: #4db74a;
+}
+
+.fa-check-circle {
+  color: #4c9c2e;
+  font-size: 3em;
 }
