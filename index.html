@@ -26,13 +26,13 @@
       <h2 class="white second-text">Our new website will be launched soon</h2>
     </div>
     <div id="form-wrapper">
-      <form id="userForm" action="https://getsimpleform.com/messages?form_api_token=678c1b00675bb8aa9c44ab23b0409fad" method="post" name="userForm">
+      <form id="userForm" action="https://getsimpleform.com/messages?form_api_token=678c1b00675bb8aa9c44ab23b0409fad" method="post">
           <input type="text" name="First Name" id="fname" placeholder="First Name" required>
           <input type="text" name="Last Name" id="lname" placeholder="Last Name" required>
-          <input type="text" name="Email" id="email" placeholder="Email" required>
+          <input type="email" name="Email" id="email" placeholder="Email" required>
           <textarea name="message" id="message" cols="10" rows="10" placeholder="Your Message" required></textarea>
           <input id="cancel-btn" class="btn cancel" type="button" value="cancel" onclick="resetForm();">
-          <input id="submit-button" class="btn btn-primary submit" type="submit" value="submit" onclick="showModal();">
+          <input class="btn btn-primary submit" type="submit" value="submit" onclick="showModal();">
       </form>
     </div>
     <div class="contact-info">
@@ -54,10 +54,6 @@
     <p>&copy; 2019  Competence. All rights reserved.</p>
   </footer>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script
-  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
-  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
-  crossorigin="anonymous"></script>
   <script src="js/script.js"></script>
 </body>
 </html>

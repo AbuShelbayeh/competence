@@ -82,7 +82,7 @@ main {
     grid-gap: .3rem;
     justify-content: space-between;
 
-    input[type=text] {
+    input[type=text],input[type=email] {
       border: none;
       width: 12rem;
       font-size: .55em;
@@ -91,7 +91,7 @@ main {
       background-color: rgba(179,179,179,.6);
       color: #fff;
     }
-    input[type=text]::placeholder {
+    input[type=text]::placeholder, input[type=email]::placeholder {
       color: #fff;
     }
   
