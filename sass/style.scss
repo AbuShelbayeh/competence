@@ -163,6 +163,7 @@ footer {
 #modal-wrapper {
   position: fixed;
   display: flex;
+  visibility: hidden;
   justify-content: center;
   align-items: center;
   width: 100%;
